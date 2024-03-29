@@ -1,6 +1,6 @@
 interface IUser{
     userName: string;
-    country: string;
+    country?: string; // optional you can create the object without it.
     age: number;
     isMarried: boolean;
     isStatus: boolean;
